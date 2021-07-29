@@ -10,13 +10,11 @@ const useForm = (initialState = {}) => {
         });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(values);
+    const reset = () => {
         setValues(initialState);
     };
 
-    return [values, handleInputChange, handleSubmit];
+    return [values, handleInputChange, reset];
 }
 
 export default useForm;
