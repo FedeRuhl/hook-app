@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem tests should return TodoListItem successfull 1`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    1
+    . 
+    learn react
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;

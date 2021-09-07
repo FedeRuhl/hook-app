@@ -13,7 +13,7 @@ const RealExampleRef = () => {
             <h1>Real example ref</h1>
             <hr />
 
-            { (show) ? <MultipleCustomHooks /> : null }
+            <p>{ (show) ? <MultipleCustomHooks /> : null }</p>
 
             <button 
                 className="btn btn-success"

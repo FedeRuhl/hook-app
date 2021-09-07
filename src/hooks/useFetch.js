@@ -36,7 +36,12 @@ const useFetch = (url) => {
                         error: null
                     });
                 }
-            });
+            })
+            .catch((e) => setState({
+                data: null,
+                loading: false,
+                error: 'Data could not be fetched'
+            }));
     }, [url]);
 
     return state;
